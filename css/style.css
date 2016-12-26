@@ -1,0 +1,155 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+/*    background: url("https://images.unsplash.com/photo-1476733419970-c703149c016b") fixed center center;*/
+    font-family: "Catamaran";
+    background: url("https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64") no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(0,0,0,0.3); /*dim the background*/
+}
+
+
+
+/*change color of the link when clicked*/
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #398ae3;
+}
+
+
+.navbar-default .navbar-brand {
+    color: #398ae3;
+}
+
+/*change color of nav bar and remove border*/
+.navbar-default{
+    background-color: #333;
+    border: none;
+}
+
+/*change color of links*/
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+/*link hover*/
+.navbar-default .navbar-nav>li>a:hover {
+    color: #f39a37;
+}
+
+/*active link*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    color: #555;
+    background-color: white;
+}
+
+
+
+
+
+.center{
+    text-align: center;
+    margin-top: 7%;
+    font-size: 2em;
+    color:white;
+    padding-bottom: 30px;
+    width:75%;
+    opacity: 0.9;
+  
+}
+
+.center h1{
+    font-size: 1.5em;
+}
+
+.center h2{
+    font-size: 2em;
+}
+
+
+
+/*
+old code
+div.fadeMe {
+  opacity:    0.1; 
+  background: #000; 
+  width:      100%;
+  height:     100%; 
+  z-index:    1;
+  top:        0; 
+  left:       0; 
+  position:   fixed; 
+}
+*/
+
+.zIndex{
+      z-index: 2;
+    position: relative;
+}
+
+
+#login{
+    min-width: 250px;
+    background-color: rgba(255,255,255,0.7);
+    padding: 14px 14px 14px;
+    overflow: hidden;
+}
+
+.btn-fb{
+    color:white;
+    background-color: #3b5998
+}
+
+.btn-tw{
+    color:white;
+    background-color: #55acee;
+}
+
+.btn-fb:hover{
+    color:white;
+    background-color: #496ebc
+}
+
+.login-social{
+    margin-left:20px;
+}
+
+
+#login .social-buttons{
+    margin: 12px 0;
+}
+
+@media (max-width:768px){
+/*
+    h1{
+        background-color: #449d44;
+    }
+    h2{
+        background-color: #449d44;
+    }
+*/
+}
+
+@media (min-width:768px){
+    h1{
+        background-color: skyblue;
+        opacity: 0.8;
+        border-radius: 18px;
+        padding:10px;
+    }
+    
+    
+}
